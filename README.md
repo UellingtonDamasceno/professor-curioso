@@ -19,7 +19,7 @@ resultados, deseja-se qeu a pesquisa seja informatizada."
 | 03 | Caso o entrevistado seja egresso, deverá também informar seu grau de instrução ( superior completo, especialização, mestrado ou doutorado); | :white_check_mark: |
 | 04 | Calcular e mostrar a quantidade dos que Concordam com a pergunta 05. | :white_check_mark: |
 | 05 | Calcular o percentual dos que Não concordam ou Não possuem opinião definida com a afirmação da pergunta 06 | :white_check_mark: |
-| 06 | Calcular a média de idade dos que Não Concordam com a [pergunta 07](#07). | :white_check_mark: |
+| 06 | Calcular a média de idade dos que Não Concordam com a pergunta 07. | :white_check_mark: |
 | 07 | Calcular a média de idade dos estudantes no momento da conclução do curso. | :white_check_mark: |
 | 08 | Computar o número de mulheres que pertencem ao curso e o número de egressas. | :white_check_mark: |
 | 09 | Computar o número de entrevistados que Concordam com a pergunta 08. | :white_check_mark: |
@@ -40,7 +40,7 @@ resultados, deseja-se qeu a pesquisa seja informatizada."
 | 4.2 | Em que ano se formo? (Para egressos) | entre 1900 e 2017 | 
 | 05 | Você concorda que o PBL ajuda na execução de seus trabalhos? | 0 - Não Concordo<br>1 - Concordo<br>2 - Não Tenho Opinião |
 | 06 | Você concorda que o PBL é melhor que o método tradicional de ensino? | 0 - Não Concordo<br>1 - Concordo<br>2 - Não Tenho Opinião |
-| <h6>07</h6> | O mercado de trabalho local é capaz de reter os profissionais formados nas áres de informática e engenharia? | 0 - Não Concordo<br>1 - Concordo<br>2 - Não Tenho Opinião |
+| 07 | O mercado de trabalho local é capaz de reter os profissionais formados nas áres de informática e engenharia? | 0 - Não Concordo<br>1 - Concordo<br>2 - Não Tenho Opinião |
 | 08 | Voce concorda que os novos alunos desconhecem o PBL quando entram no curso? | 0 - Não Concordo<br>1 - Concordo<br>2 - Não Tenho Opinião |
 | 09 | Concorda com a afirmação de que um aluno só consegue se adaptar com o PBL somente a partir do 4º semestre? | 0 - Não Concordo<br>1 - Concordo<br>2 - Não Tenho Opinião |
 </details>
@@ -48,7 +48,12 @@ resultados, deseja-se qeu a pesquisa seja informatizada."
 Após o término de uma entrevista o sistema apresenta o menu abaixo que possiblita o entrevistador 
 efetuar uma nova pesquisa ou ver o [relatório](#relatório) das ultimas pesquisa.
 
+![Menu resultados da pesquisa](https://github.com/UellingtonDamasceno/professor-curioso/res/imagens/menu-fim-pesquisa.png)
+
 ## Relatório
 
+![Relátorio](https://github.com/UellingtonDamasceno/professor-curioso/res/imagens/resultados-pesquisas.png)
 ## Produto
 
+Na época do desenvolvimento dessa sistema não havia um repositório git para organizar as versões. 
+Por esse motivo pensou-se em criar cópias do código a fim de salvar o estado do mesmo. [Veja aqui as versões anteriores]()
