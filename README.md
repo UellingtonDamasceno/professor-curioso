@@ -48,12 +48,12 @@ resultados, deseja-se qeu a pesquisa seja informatizada."
 Após o término de uma entrevista o sistema apresenta o menu abaixo que possiblita o entrevistador 
 efetuar uma nova pesquisa ou ver o [relatório](#relatório) das ultimas pesquisa.
 
-![Menu resultados da pesquisa](https://github.com/UellingtonDamasceno/professor-curioso/res/imagens/menu-fim-pesquisa.png)
+![Menu resultados da pesquisa](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/imagens/menu-fim-pesquisa.png)
 
 ## Relatório
 
-![Relátorio](https://github.com/UellingtonDamasceno/professor-curioso/res/imagens/resultados-pesquisas.png)
+![Relátorio](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/imagens/resultados-pesquisas.png)
 ## Produto
 
 Na época do desenvolvimento dessa sistema não havia um repositório git para organizar as versões. 
-Por esse motivo pensou-se em criar cópias do código a fim de salvar o estado do mesmo. [Veja aqui as versões anteriores]()
+Por esse motivo pensou-se em criar cópias do código a fim de salvar o estado do mesmo. [Veja aqui as versões anteriores](https://github.com/UellingtonDamasceno/professor-curioso/tree/main/Vers%C3%B5es%20anteriores)
