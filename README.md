@@ -1,5 +1,15 @@
 # professor-curioso
 
+## Sumário
+- [Problema](#problema)
+- [Requisistos básicos](#requisitos-básicos)
+- [Perguntas](#perguntas)
+- [Relátorio de pesquisa](#relatório-de-pesquisa)
+- [Produto](#produto)
+- [Objetivo de aprendizagem](#objetivo-de-aprendizagem)
+- [Melhorias](#melhorias)
+- [Versões anteriores](#versões-anteriores)
+
 ## Problema
 
 "A disciplina Introdução a Engenhaira, do primeiro semestre do curso de Engenharia da 
@@ -28,7 +38,7 @@ resultados, deseja-se qeu a pesquisa seja informatizada."
 
 ## Perguntas
 <details>
-<summary> Listar perguntas </summary>
+<summary>:eyes: Listar perguntas </summary>
   
 | Pergunta nº | Pergunta | Intervalo válido de respostas |
 | :---------: | -------- | ----------------------------- |
@@ -46,14 +56,58 @@ resultados, deseja-se qeu a pesquisa seja informatizada."
 </details>
 
 Após o término de uma entrevista o sistema apresenta o menu abaixo que possiblita o entrevistador 
-efetuar uma nova pesquisa ou ver o [relatório](#relatório) das ultimas pesquisa.
+efetuar uma nova pesquisa ou ver o [relatório](#relatório-de-pesquisa) das ultimas pesquisa.
 
 ![Menu resultados da pesquisa](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/imagens/menu-fim-pesquisa.png)
 
-## Relatório
+## Relatório de pesquisa
 
 ![Relátorio](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/imagens/resultados-pesquisas.png)
-## Produto
 
-Na época do desenvolvimento dessa sistema não havia um repositório git para organizar as versões. 
+## Produto
+Como produto final foi necessário construir um algoritmo na representação de
+[fluxograma](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Fluxograma.pdf)
+e um [relatório técnico](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Relat%C3%B3rio.pdf).
+
+    Dá um desconto para meu relatório. Ele foi o meu primeiro. 
+    
+## Objetivo de aprendizagem
+- [Fluxograma.](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Fluxograma.pdf)
+- Costrução de [relatório técnico.](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Relat%C3%B3rio.pdf) 
+- Entrada e saída de dados.
+- Estrutura condicionais.
+- Estrutura de repetições.
+
+Para o implementação desse sistema não era permitido o uso de funções, e
+por esse motivo o código ficou com essa aparência de "Kamehameha" (ou
+Hadouken se preferirem). Apesar dessa restrição foram utilizadas funções
+sendo uma para imprimir uma barra superior e outra para barra inferior
+(UX em primeiro lugar).
+      
+Por falar em UX, o sistema não é finalizado até que o usuário selecione 
+a opção de "sair" no menu principal. Isso significa que todos os erros de
+entradas inválidas foram tratadas, portanto é possível inserir caracteres
+inválidos em questões onde era esperado um inteiro sem que o sistema seja
+finalizado.
+
+## Melhorias
+Este sistema foi um primeiro contato real com a metodólogia PBL e por esse 
+motivos há muitas melhorias para serem implementadas. Abaixo segue uma lista
+de melhorias que poderiam ser implementadas sem fugir do objetivo de 
+aprendizagem.
+
+- Utilizar condicionais para verificar a quantidade de entrevistadas para evitar textos como: "0 Veteranos foram entrevistados."
+- Utilizar caracteres ASCII para construir as bordas do menu.
+- Utilização de funções para reduzir o efeito "Kamehameha".
+- Refatorar condições para retirar redundâncias como por exemplo:
+```c
+  else if(escolaridade == 2 && anoFormatura < 1900 || escolaridade == 2 && anoFormatura > 2017) // Linha 207
+  // Trocar por:
+  else if(escolaridade == 2 && (anoFormatura < 1900 || anoFormatura > 2017)
+```
+- Utilizar pré-processadores para identificar qual é o S.O utilizado e definir quais funções auxiliares do sistema devem ser utilzados. 
+- Inserir bibliotecas necessárias para o bom funcionamento do _software_ em sistemas operacionais baseado em Linux.
+
+## Versões anteriores
+Na época do desenvolvimento desse sistema não havia um repositório git para organizar as versões. 
 Por esse motivo pensou-se em criar cópias do código a fim de salvar o estado do mesmo. [Veja aqui as versões anteriores](https://github.com/UellingtonDamasceno/professor-curioso/tree/main/Vers%C3%B5es%20anteriores)
