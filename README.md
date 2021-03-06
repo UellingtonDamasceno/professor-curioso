@@ -9,6 +9,7 @@
 - [Objetivo de aprendizagem](#objetivo-de-aprendizagem)
 - [Melhorias](#melhorias)
 - [Versões anteriores](#versões-anteriores)
+- [Curiosidades](#curiosidades)
 
 ## Problema
 
@@ -74,6 +75,7 @@ e um [relatório técnico](https://github.com/UellingtonDamasceno/professor-curi
 ## Objetivo de aprendizagem
 - [Fluxograma.](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Fluxograma.pdf)
 - Costrução de [relatório técnico.](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Relat%C3%B3rio.pdf) 
+- Linguagem de programação C.
 - Entrada e saída de dados.
 - Estrutura condicionais.
 - Estrutura de repetições.
@@ -103,11 +105,22 @@ aprendizagem.
 ```c
   else if(escolaridade == 2 && anoFormatura < 1900 || escolaridade == 2 && anoFormatura > 2017) // Linha 207
   // Trocar por:
-  else if(escolaridade == 2 && (anoFormatura < 1900 || anoFormatura > 2017)
+  else if(escolaridade == 2 && (anoFormatura < 1900 || anoFormatura > 2017))
 ```
 - Utilizar pré-processadores para identificar qual é o S.O utilizado e definir quais funções auxiliares do sistema devem ser utilzados. 
 - Inserir bibliotecas necessárias para o bom funcionamento do _software_ em sistemas operacionais baseado em Linux.
 
 ## Versões anteriores
 Na época do desenvolvimento desse sistema não havia um repositório git para organizar as versões. 
-Por esse motivo pensou-se em criar cópias do código a fim de salvar o estado do mesmo. [Veja aqui as versões anteriores](https://github.com/UellingtonDamasceno/professor-curioso/tree/main/Vers%C3%B5es%20anteriores)
+Por esse motivo pensou-se em criar cópias do código a fim de salvar o estado do mesmo.
+[Veja aqui as versões anteriores](https://github.com/UellingtonDamasceno/professor-curioso/tree/main/Vers%C3%B5es%20anteriores)
+
+### Curiosidades
+1. O motivo do github informar que há mais código `c++` do que `c` e  que na época do desenvolvimento desse sitema eu
+não sabia que o tipo `bool` não estava presente na Linguagem C. Mas como estava utilizando o DEVC++ como ambiente de desenvolvimento
+comecei a produzir códigos em `c++` (sem saber) por causa das variáveis boleanas presentes no código e da IDE que também entendia `c++`. 
+2. A descrição que aparece ao selecionar a opção "sobre" no menu principal foi construida em `python` e reimplementado em c.
+3. O [relatório técnico](https://github.com/UellingtonDamasceno/professor-curioso/blob/main/res/Relat%C3%B3rio.pdf) recebeu duas notas diferentes.
+4. Apesar de não utilizar o git/github os códigos na pasta de versões anteriores possuem uma descição que lista as diferenças entre a versão atual e a anterior.
+5. Em uma das versões anteriores há uma opção no menu principal na qual o usuário podia escolher entre 12 combinações de cores do terminal e fonte. Essa opção foi retirada para facilitar a construção do fluxograma.
+
