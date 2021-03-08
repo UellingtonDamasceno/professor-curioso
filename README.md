@@ -125,4 +125,5 @@ comecei a produzir códigos em `c++` (sem saber) por causa das variáveis bolean
 5. Em uma das versões anteriores há uma opção no menu principal na qual o usuário podia escolher entre 12 combinações de cores do terminal e fonte. Essa opção foi retirada para facilitar a construção do fluxograma.
 
 ------
-[Próximo problema](https://github.com/UellingtonDamasceno/leite-condensado/blob/main/README.md) :arrow_right:
+
+[Próximo problema](https://github.com/UellingtonDamasceno/leite-condensado) :arrow_right:
