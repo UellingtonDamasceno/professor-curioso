@@ -1,16 +1,5 @@
 # professor-curioso
 
-## Sumário
-- [Problema](#problema)
-- [Requisistos básicos](#requisitos-básicos)
-- [Perguntas](#perguntas)
-- [Relátorio de pesquisa](#relatório-de-pesquisa)
-- [Produto](#produto)
-- [Objetivo de aprendizagem](#objetivo-de-aprendizagem)
-- [Melhorias](#melhorias)
-- [Versões anteriores](#versões-anteriores)
-- [Curiosidades](#curiosidades)
-
 ## Problema
 
 "A disciplina Introdução a Engenhaira, do primeiro semestre do curso de Engenharia da 
